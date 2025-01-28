@@ -276,9 +276,15 @@ hr {
     width: 100%;
     display: block;
 }
+.responsive_video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .videoWrap {
-    padding: 10px 20px;  
+    padding: 10px 20px;
+    max-width: 35%;
 }
 
 .footer {
@@ -484,6 +490,10 @@ hr {
         font-size: 11px;
     }
 
+    .videoWrap {
+        padding: 10px 15px;
+        max-width: 100%;
+    }
 
 
 }
