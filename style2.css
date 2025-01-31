@@ -169,9 +169,9 @@ label {
 
 .info_text {
     word-break: keep-all;
-    line-height: 18px;
-    font-size: 13px;
-    margin-right: 25px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-right: 100px;
 }
 
 .line_text {
@@ -424,8 +424,8 @@ hr {
 
     .info_text {
         word-break: keep-all;
-        line-height: 18px;
-        font-size: 14px;
+        line-height: 20px;
+        font-size: 15px;
         margin-bottom: 30px;
         margin-right: 0px;
     }
