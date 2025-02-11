@@ -286,10 +286,19 @@ hr {
     padding: 10px 20px;
 }
 
+.videoWrap video{
+    border-radius: 10px;
+}
+
 .videoWrap_02 {
     padding: 10px 20px;
     max-width: 35%;
 }
+
+.videoWrap_02 video {
+    border-radius: 10px;
+}
+
 
 .footer {
     display: grid;
