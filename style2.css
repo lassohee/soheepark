@@ -288,6 +288,7 @@ hr {
 
 .videoWrap video{
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .videoWrap_02 {
@@ -297,8 +298,37 @@ hr {
 
 .videoWrap_02 video {
     border-radius: 10px;
+    overflow: hidden;
 }
 
+
+.desc_container {
+    margin: 35px;
+    line-height: 22px;
+}
+
+.desc_title {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.desc_copy {
+    padding-bottom: 15px;
+}
+
+.desc_subtitle {
+    display: grid;
+    grid-template-columns: 0.6fr 0.2fr 1fr;
+}
+
+.desc_category {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.desc_right {
+    margin-right: 20px;
+}
 
 .footer {
     display: grid;
@@ -396,7 +426,7 @@ hr {
     .description_text {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 30px 30px;
+        padding: 25px 25px;
         grid-gap: 20px;
     }
     
@@ -425,6 +455,7 @@ hr {
         word-break: keep-all;
     }
 
+    
     .content_container .info_container {
         display: grid;
         grid-template-columns: 1fr;
